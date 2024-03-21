@@ -13,7 +13,7 @@ body {
     width: 50%;
     background-color: white;
     margin: 0 auto;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 header {
@@ -55,7 +55,6 @@ button {
 }
 
 .answere-container {
-    height: 600px;
     width: 85%;
     margin: 30px auto;
 }
@@ -124,6 +123,28 @@ ul {
 .mobile::after {
     content: 'Recruiting';
     background-color: orange;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.website::after {
+    content: 'Website';
+    background-color: palevioletred;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.sales::after {
+    content: 'Sales';
+    background-color: lightgreen;
     color: white;
     font-size: 10px;
     font-weight: bold;
