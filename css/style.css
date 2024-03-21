@@ -18,13 +18,11 @@ body {
 
 header {
     background-color: white;
-    height: 50px;
     padding: 20px 5px;
 }
 
-h1 {
+.h1-topbar {
     display: inline-block;
-    margin: 10px 0;
     position: absolute;
 }
 
@@ -54,4 +52,33 @@ button {
 
 .dividers {
     border-top: 3px solid gray;
+}
+
+.answere-container {
+    height: 600px;
+}
+
+.done-answere::before {
+    content: "\2714";
+    color: lightgreen;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 3;
+}
+
+.button-answere {
+    border-radius: 10px;
+    border: 0;
+}
+
+.editorial {
+    background-color: #00cdfe;
+    color: white;
+    font-size: 5px;
 }
