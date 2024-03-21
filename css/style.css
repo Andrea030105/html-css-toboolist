@@ -21,9 +21,14 @@ header {
     padding: 20px 5px;
 }
 
-.h1-topbar {
-    display: inline-block;
-    position: absolute;
+#logo {
+    vertical-align: middle;
+}
+
+.logo-text {
+    font-size: 45px;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 .button_container {
