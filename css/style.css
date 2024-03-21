@@ -27,9 +27,9 @@ header {
 }
 
 .button_container {
-    height: 50px;
+    height: 70px;
     margin-top: 50px;
-    padding: 10px 0 0 60px;
+    padding: 20px 0 0 60px;
 }
 
 button {
@@ -56,29 +56,78 @@ button {
 
 .answere-container {
     height: 600px;
+    width: 85%;
+    margin: 30px auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 3;
+    font-size: 25px;
 }
 
 .done-answere::before {
     content: "\2714";
     color: lightgreen;
     border-radius: 50%;
-    border: 2px solid lightgreen;
-    padding: 5px;
+    border: 3px solid lightgreen;
+    padding: 3px 7px;
     margin: 10px;
 }
 
-ul {
-    list-style-type: none;
-    line-height: 3;
-}
-
-.button-answere {
-    border-radius: 10px;
-    border: 0;
-}
-
-.editorial {
+.editorial::after {
+    content: 'Editorial';
     background-color: #00cdfe;
     color: white;
-    font-size: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.q1::after {
+    content: 'Q1 Goals';
+    background-color: rgb(137, 48, 162);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.none-answere::before {
+    content: "\2718";
+    color: red;
+    border-radius: 50%;
+    border: 3px solid red;
+    padding: 3px 7px;
+    margin: 10px;
+}
+
+.recruiting::after {
+    content: 'Recruiting';
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+.mobile::after {
+    content: 'Recruiting';
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 8px 15px;
 }
